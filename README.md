@@ -15,3 +15,16 @@ Note: I DID NOT MAKE THIS GAME
 
 
 game link at https://retro-bowl-wine.vercel.app/
+
+to get more coaching credits open the console and run
+
+let key = "RetroBowl.0.savedata.ini";
+let save = localStorage.getItem(key);
+if (save) {
+  save = save.replace(/coach_credit="?\d+"?/g, 'coach_credit="999"');
+  localStorage.setItem(key, save);
+  console.log("Coaching credits changed to 999!");
+}
+
+
+relpace coach_credit="999"' with however many credits you want
