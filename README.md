@@ -28,3 +28,6 @@ if (save) {
 
 
 relpace coach_credit="999"' with however many credits you want
+
+
+after all of that close and repoen the tab with the game to have it update with all of the credits
